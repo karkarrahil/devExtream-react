@@ -7,10 +7,11 @@ import './index.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-  <BrowserRouter>
-    <App />
-
-  </BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename="/devExtream-form/">
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 
 );
 

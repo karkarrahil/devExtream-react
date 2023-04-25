@@ -4,8 +4,6 @@ import './Textvoice.css'
 
 
 
-
-
 const TextInvoice = () => {
   const componentRef = useRef();
   const Button = () => {
