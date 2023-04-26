@@ -23,8 +23,8 @@ function App() {
 
   return (
     <Routes>
-      <Route exact path='/devextream-react' element={<FirmMaster />} />
-      <Route exact path='/devextream-react/TextInvoice' element={<TextInvoice />} />
+      <Route exact path='/' element={<FirmMaster />} />
+      <Route exact path='/TextInvoice' element={<TextInvoice />} />
     </Routes>
   );
 }
